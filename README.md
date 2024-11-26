@@ -13,8 +13,8 @@
 - Jupyter notebook containing the following sections:
     - **0. Imports**: Importing the necessary Python libraries and modules for data manipulation, visualization, and model training.
     - **1. Dataset Acquisition**: Downloading and loading the breast cancer dataset, which is stored in `data.csv`, and preparing it for analysis. Includes loading the dataset from Kaggle using the `kaggle.json` authentication file.
-    - 2. **Exploratory Data Analysis (EDA)**: Data cleaning, feature exploration and visualization of the breast cancer dataset. This section includes tasks such as handling missing values, checking data types, exploring distributions of features, and visualizing the relationship between different features.
-    - 3. **Predictive models**: Various machine learning models are trained and evaluated, comparing their performance based on some metrics.
+    - **2. Exploratory Data Analysis (EDA)**: Data cleaning, feature exploration and visualization of the breast cancer dataset. This section includes tasks such as handling missing values, checking data types, exploring distributions of features, and visualizing the relationship between different features.
+    - **3. Predictive models**: Various machine learning models are trained and evaluated, comparing their performance based on some metrics.
 
     In **Section 1** of the notebook, there is a step to generate the `kaggle.json` file to authenticate the Kaggle API and download the dataset.
 
