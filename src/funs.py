@@ -1,6 +1,5 @@
 import os
 import json
-from kaggle.api.kaggle_api_extended import KaggleApi
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
@@ -18,16 +17,6 @@ def config_kaggle():
     os.environ["KAGGLE_KEY"] = config["key"]
 
     print("Kaggle configuration done!")
-
-def download_dataset():
-    api = KaggleApi()
-    api.authenticate()
-
-    try:
-        api.dataset_download_files("uciml/breast-cancer-wisconsin-data", path="./data", unzip=True)
-        print("Dataset downloaded successfully!")
-    except Exception:
-        print(f"Error: The dataset is not available on Kaggle.")
 
 
 def info_df(df, types=False):
