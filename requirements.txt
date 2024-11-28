@@ -1,7 +1,7 @@
-kaggle==1.6.17
-pandas==1.5.3
-seaborn==0.13.2
-matplotlib==3.8.3
-scikit-learn==1.3.0
-
-# These are the versions I have used.
+ipykernel
+notebook
+kaggle
+pandas
+seaborn
+matplotlib
+scikit-learn

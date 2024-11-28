@@ -1,3 +1,34 @@
+## How to run the project in a virtual environment
+
+### 1. Create the virtual environment (use `env` for convenience):
+```
+python.exe -m venv env --prompt <name_environment>
+```
+### 2. Activate the virtual environment:
+```
+.\env\Scripts\activate
+```
+### 3. Clone the repository into the desired directory:
+```
+git clone https://github.com/javier-GC0/breast_cancer
+```
+### 4. Install the project dependencies:
+```
+python.exe -m pip install .\breast_cancer\requirements.txt
+```
+### 5. Register the virtual environment in Jupyter:
+```
+python -m ipykernel install --user --name=breast_cancer --display-name "Python (breast_cancer)"
+```
+### 6. Start Jupyter Notebook:
+```
+jupyter notebook
+```
+### 7. Open the project notebook:
+Navigate to the notebook file (`breast_cancer.ipynb`) and select the `Python (breast_cancer)` kernel.
+
+
+
 ## Project Structure
 
 ### config
